@@ -1,0 +1,60 @@
+header {
+    border: 1px solid rgba(18, 105, 102, 0.555);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #962929;
+}
+
+header p {
+  font-style: italic;
+}
+
+header img {
+    width: 40%;
+    border: 10px solid rgb(156, 146, 108);
+    border-radius: 50%;
+    box-shadow: 6px 5px 20px rgb(71, 79, 68)
+
+}
+
+header img:hover {
+    transform: scale(24,26);
+    transition: ease-in-out;
+}
+
+header button {
+    display: block;
+    margin: 30px auto;
+    padding: 15px 4px;
+    background-color: #120c1b;
+    border-radius: 15px;
+    border: 3px salmon;
+    color: rgb(188, 198, 206);
+}
+.project{
+    width: 90%;
+    margin: 20px;
+    border: 1px solid red;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.project img {
+    width: 40%;
+}
+.project img:hover {
+    transform:scale(.8);
+    transition:all 3s ease-in-out;
+    box-shadow: 2px 2px 12px cornflowerblue
+}
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 30px;
+    background-color: beige;
+    color: antiquewhite;
+}
